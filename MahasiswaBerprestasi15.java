@@ -1,5 +1,8 @@
 public class MahasiswaBerprestasi15 {
-    Mahasiswa15 [] listMhs= new Mahasiswa15[5];
+    MahasiswaBerprestasi15(int n) {
+        listMhs = new Mahasiswa15[n];
+    }
+    Mahasiswa15[] listMhs;
     int idx;
 
     void tambah(Mahasiswa15 m) {
